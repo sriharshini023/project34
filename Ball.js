@@ -15,6 +15,7 @@ class Ball{
         translate(this.body.position.x,this.body.position.y);
         rotate(angle);
         ellipse(0,0,this.width,this.height);
+        ball.colour("pink")
         pop();
     }
 }

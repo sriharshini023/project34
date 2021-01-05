@@ -34,7 +34,7 @@ function setup(){
 }
 function draw(){
 
-    background(180);
+    background("black");
     Engine.update(engine);
 
     ball1.display();

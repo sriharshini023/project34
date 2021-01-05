@@ -23,7 +23,7 @@ class Rope{
             var pointA = this.rope.bodyA.position;
             var pointB= this.pointB;
             push();
-            stroke("grey");
+            stroke("teal");
             strokeWeight(3);
             line(pointB.x,pointB.y,pointA.x,pointA.y);
             pop();
